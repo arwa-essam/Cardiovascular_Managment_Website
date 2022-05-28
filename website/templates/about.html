@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %} {% block body%}
+
+<link rel="stylesheet" href="{{ url_for('static',filename='css/about.css') }}">
+
+<div class="about">
+
+    <div class="animate box">
+        <h1>   About Us </h1>
+        <h3> <i class="fas fa-ambulance"></i>  services </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
+    </div>
+
+    <div class="animate box box1">
+        <h3> <i class="fas fa-procedures"></i> operating  rooms </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
+    </div>
+
+    <div class="animate box box2">
+        <h3> <i class="fas fa-stethoscope"></i>  check-ups </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit.</p>
+    </div>
+
+</div>    
+    
+{% endblock %}
+    
